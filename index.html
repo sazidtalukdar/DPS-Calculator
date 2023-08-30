@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>DPS Calculator</h1>
+
+        <h3>Monthly Investment :</h3>
+        <input type="number" id="principal" autofocus>
+
+        <h3>Period (in years) :</h3>
+        <input type="number" id="period">
+
+        <h3>Interest Rate :</h3>
+        <input type="number" id="interest">
+
+        <p id="invested">Invested:</p>
+        <p id="returns">Returns:</p>
+        <button id="btn" onclick="Calculate()">Calculate</button>
+    </div>
+</body>
+</html>
